@@ -7,7 +7,7 @@ variable "cidr" {
 variable "name_tags" {
   description = "Name tag for the VPC"
   type        = string
-  default     = "dev-vpc"
+  default     = "githubactions-test-vpc"
 }
 
 variable "subnet_cidr" {
